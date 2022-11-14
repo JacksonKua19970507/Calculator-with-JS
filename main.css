@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator
+{
+    flex:0 0 95%;
+}
+
+.screen
+{
+    width: 100%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background: rgb(52, 52, 61);
+    color: white;
+    border: none;
+}
+
+.buttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+
+.btn
+{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+button:hover
+{
+   background: cyan; 
+}
+
+.btn-yellow
+{
+    background: rgb(252, 252, 35);
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.btn-grey
+{
+    background: rgb(128, 128, 128);
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.btn-equal
+{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+    font-size: 2rem;
+}
+
+.btn-green
+{
+    background: rgb(3, 161, 3);
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.btn-clear
+{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+    font-size: 2rem;
+}
+
+.btn-orange
+{
+    background: rgb(231, 151, 3);
+    color: rgba(255, 255, 255, 0.884);
+}
